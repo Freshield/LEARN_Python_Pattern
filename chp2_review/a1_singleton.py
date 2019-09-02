@@ -27,6 +27,11 @@ class Singleton(object):
 if __name__ == '__main__':
     s = Singleton()
     print('object created', s)
+    s.test = 1
 
     s1 = Singleton()
     print('object created', s1)
+    print(s1.test)
+
+    s1.test = 2
+    print(s.test)
