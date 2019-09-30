@@ -14,6 +14,13 @@
 @                                    Freshield @
 @==============================================@
 """
+from a1_subsystem import Hotelier, Florist, Caterer, Musician
 
 
-class
+class EventManager(object):
+    def __init__(self):
+        print('event manager, let me talk to the folks')
+
+    def arrange(self):
+        self.hotelier = Hotelier()
+        self.hotelier.bookHotel()
