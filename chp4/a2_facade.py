@@ -33,3 +33,21 @@ class EventManager(object):
 
         self.musician = Musician()
         self.musician.setMusicType()
+
+
+class You(object):
+    def __init__(self):
+        print('you whoa!marriage arrangements')
+
+    def askEventManager(self):
+        print('you let\'s contact the event manager\n')
+        em = EventManager()
+        em.arrange()
+
+    def __del__(self):
+        print('you thanks to event manager, all preparations done!phew!')
+
+
+if __name__ == '__main__':
+    you = You()
+    you.askEventManager()
