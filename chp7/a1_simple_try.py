@@ -15,6 +15,7 @@
 @==============================================@
 """
 
+
 class Wizard():
     def __init__(self, src, rootdir):
         self.choices = []
