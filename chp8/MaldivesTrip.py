@@ -2,9 +2,9 @@
 """
 @Author: Freshield
 @Contact: yangyufresh@163.com
-@File: VeniceTrip.py
-@Time: 2019-10-12 13:21
-@Last_update: 2019-10-12 13:21
+@File: MaldivesTrip.py
+@Time: 2019-10-13 13:25
+@Last_update: 2019-10-13 13:25
 @Desc: None
 @==============================================@
 @      _____             _   _     _   _       @
@@ -17,19 +17,20 @@
 from Trip import Trip
 
 
-class VeniceTrip(Trip):
+class MaldivesTrip(Trip):
     def setTransport(self):
-        print('venice transport')
+        print('maldives transport')
 
     def day1(self):
-        print('venice day1')
+        print('maldives day1')
 
     def day2(self):
-        print('venice day2')
+        print('maldives day2')
 
     def day3(self):
-        print('venice day3')
+        print('maldives day3')
 
     def returnHome(self):
-        print('venice return home')
+        print('maldives return home')
+
 
