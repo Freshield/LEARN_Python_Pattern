@@ -24,3 +24,12 @@ class EventManager(object):
     def arrange(self):
         self.hotelier = Hotelier()
         self.hotelier.bookHotel()
+
+        self.florist = Florist()
+        self.florist.setFlowerRequirements()
+
+        self.caterer = Caterer()
+        self.caterer.setCuisine()
+
+        self.musician = Musician()
+        self.musician.setMusicType()
