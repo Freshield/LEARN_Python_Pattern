@@ -91,3 +91,4 @@ if __name__ == '__main__':
     news_publisher.addNews('My second news!')
     news_publisher.notifySubscribers()
 
+
