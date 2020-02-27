@@ -14,3 +14,8 @@
 @                                    Freshield @
 @==============================================@
 """
+class NewsPublisher(object):
+    def __init__(self):
+        self.__subscribers = []
+        self.__latestNews = None
+
