@@ -30,3 +30,4 @@ class B(object):
 if __name__ == '__main__':
     objectB = B()
     objectB.b()
+
